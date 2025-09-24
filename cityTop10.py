@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver import ActionChains
 import os, time, json, re
 
 # ===== 공통 설정 =====
@@ -66,6 +67,43 @@ urls = {
     "파리": "https://www.agoda.com/ko-kr/city/paris-fr.html"
 }
 
+# ===== 언어 설정 =====
+def language(browser, wait):
+    try:
+        # 헤더 먼저 안전하게 클릭
+        header = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "header")))
+        ActionChains(browser).move_to_element_with_offset(header, 10, 10).click().perform()
+        time.sleep(1)
+
+        # 언어 버튼 클릭
+        lang_button = wait.until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, '[data-element-name="language-container-selected-language"]'))
+        )
+        lang_button.click()
+        time.sleep(0.5)
+
+        # English 옵션 클릭
+        english_option = wait.until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, '[data-element-name="language-popup-menu-item"][data-value="ko-kr"]'))
+        )
+        english_option.click()
+        time.sleep(1)
+
+        print("언어를 Korean로 변경 완료")
+
+    except TimeoutException:
+        print("언어 변경 실패: 요소를 찾지 못했습니다.")
+    except Exception as e:
+        print(f"어 변경 중 오류 발생: {e}")
+
+# ===== 주소 키워드 추출 =====
+def keyword(url: str) -> str:
+    m = re.search(r"/city/([a-z\-]+)\.html", url)
+    if not m:
+        return "unknown"
+    slug = m.group(1)          
+    return slug.split("-")[0] 
+
 # ===== 웹드라이버 설정 =====
 options = Options()
 options.add_argument("--headless")
@@ -84,18 +122,13 @@ browser = webdriver.Chrome(options=options)
 wait = WebDriverWait(browser, 10)
 time.sleep(2)
 
-# ===== 주소 키워드 추출 =====
-def keyword(url: str) -> str:
-    m = re.search(r"/city/([a-z\-]+)\.html", url)
-    if not m:
-        return "unknown"
-    slug = m.group(1)          
-    return slug.split("-")[0] 
-
 # 모든 주소에 대해 순차적으로 작업
 for city, url in urls.items():
     print(f'▶ {city} 접속: {url}')
     browser.get(url)
+
+    # 언어 설정 실행
+    language(browser, wait)
 
     # 호텔 카드 로드 대기
     try:
