@@ -19,10 +19,23 @@ urls = {
     "반둥": "https://www.agoda.com/ko-kr/city/bandung-id.html",
 }
 
-# ===== 웹드라이버 설정 (로컬) =====
-browser = webdriver.Chrome()
+# ===== 웹드라이버 설정 =====
+options = Options()
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage") 
+options.add_argument("--disable-gpu")
+options.add_argument("--disable-infobars")
+options.add_argument("--disable-notifications")
+options.add_argument("--window-size=1440,2000") 
+options.add_argument("--lang=ko-KR")
+options.add_experimental_option("prefs", {
+    "profile.default_content_setting_values.geolocation": 2,
+    "profile.default_content_setting_values.notifications": 2,
+})
+browser = webdriver.Chrome(options=options)
 wait = WebDriverWait(browser, 10)
-time.sleep(10)
+time.sleep(2)
 
 # ===== 주소 키워드 추출 =====
 def keyword(url: str) -> str:
