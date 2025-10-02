@@ -1,0 +1,96 @@
+{
+  "가볼만한곳": [],
+  "숙소": [
+    {
+      "title": "코니쉬 호텔 아부다비",
+      "link": "https://www.klook.com/ko/hotels/detail/396159-corniche-hotel-abu-dhabi/",
+      "score": "4.2",
+      "reviews": "727",
+      "price": "US$ 98.46"
+    },
+    {
+      "title": "안달루스 알 씨프 리조트 & 스파",
+      "link": "https://www.klook.com/ko/hotels/detail/117117-andalus-al-seef-resort--spa/",
+      "score": "3.9",
+      "reviews": "244",
+      "price": "US$ 98.46"
+    },
+    {
+      "title": "프리미어 인 아부다비 공항 (비즈니스 파크)",
+      "link": "https://www.klook.com/ko/hotels/detail/283733-premier-inn-abu-dhabi-airport-business-park/",
+      "score": "4.2",
+      "reviews": "990",
+      "price": "US$ 102.10"
+    },
+    {
+      "title": "알 디아르 미나",
+      "link": "https://www.klook.com/ko/hotels/detail/254622-al-diar-mina/",
+      "score": "3.3",
+      "reviews": "187",
+      "price": "US$ 80.60"
+    },
+    {
+      "title": "시티 시즌스 알 함라 호텔",
+      "link": "https://www.klook.com/ko/hotels/detail/424169-city-seasons-al-hamra-hotel/",
+      "score": "4.0",
+      "reviews": "420",
+      "price": "US$ 96.64"
+    },
+    {
+      "title": "래디슨 블루 호텔, 아부다비 야스 아일랜드",
+      "link": "https://www.klook.com/ko/hotels/detail/397623-radisson-blu-hotel-abu-dhabi-yas-island/",
+      "score": "4.2",
+      "reviews": "961",
+      "price": "US$ 168.59"
+    },
+    {
+      "title": "더 WB 아부 다비, 쿠리오 컬렉션 바이 힐튼",
+      "link": "https://www.klook.com/ko/hotels/detail/707986-the-wb-abu-dhabi-curio-collection-by-hilton/",
+      "score": "4.6",
+      "reviews": "164",
+      "price": "US$ 354.51"
+    },
+    {
+      "title": "힐튼 아부 다비 야스 아일랜드",
+      "link": "https://www.klook.com/ko/hotels/detail/788785-hilton-abu-dhabi-yas-island/",
+      "score": "4.6",
+      "reviews": "286",
+      "price": "US$ 273.12"
+    },
+    {
+      "title": "콘래드 아부다비 에티하드 타워스",
+      "link": "https://www.klook.com/ko/hotels/detail/435806-conrad-abu-dhabi-etihad-towers/",
+      "score": "4.8",
+      "reviews": "959",
+      "price": "US$ 223.66"
+    },
+    {
+      "title": "에미레이트 궁전 만다린 오리엔탈, 아부 다비",
+      "link": "https://www.klook.com/ko/hotels/detail/439571-emirates-palace-mandarin-oriental-abu-dhabi/",
+      "score": "4.7",
+      "reviews": "964",
+      "price": "US$ 707.35"
+    },
+    {
+      "title": "AUHotel -Zayed International Airport-Located in Transit Area -Onwards Boarding Pass Required",
+      "link": "https://www.klook.com/ko/hotels/detail/1503187-auhotel-zayed-international-airportlocated-in-transit-area-onwards-boarding-pass-required/",
+      "score": "",
+      "reviews": "",
+      "price": "US$ 104.20"
+    },
+    {
+      "title": "킹스게이트 호텔 아부 다비",
+      "link": "https://www.klook.com/ko/hotels/detail/331612-kingsgate-hotel-abu-dhabi/",
+      "score": "3.8",
+      "reviews": "188",
+      "price": "US$ 80.63"
+    }
+  ],
+  "인기순위": [
+    {
+      "rank": "1",
+      "title": "야스 섬",
+      "link": "https://www.klook.com/ko/destination/p50301118-yas-island/"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "가볼만한곳": [],
+  "숙소": [
+    {
+      "title": "트래블로지 님만 치앙마이",
+      "link": "https://www.klook.com/ko/hotels/detail/1216699-travelodge-nimman/",
+      "score": "4.8",
+      "reviews": "161",
+      "price": "US$ 39.54"
+    },
+    {
+      "title": "노보텔 치앙마이 님만 저니허브",
+      "link": "https://www.klook.com/ko/hotels/detail/282279-novotel-chiangmai-nimman-journeyhub/",
+      "score": "4.1",
+      "reviews": "188",
+      "price": "US$ 52.61"
+    },
+    {
+      "title": "코지 인 치앙마이",
+      "link": "https://www.klook.com/ko/hotels/detail/491583-cozy-inn-chiang-mai/",
+      "score": "4.8",
+      "reviews": "419",
+      "price": "US$ 18.10"
+    },
+    {
+      "title": "Collection O Bupamontra Chiangmai",
+      "link": "https://www.klook.com/ko/hotels/detail/1730596-collection-o-bupamontra-chiangmai/",
+      "score": "3.6",
+      "reviews": "30",
+      "price": "US$ 10.96"
+    },
+    {
+      "title": "크로스 바이브 치앙마이 디셈 - SHA Extra Plus",
+      "link": "https://www.klook.com/ko/hotels/detail/435661-cross-vibe-chiang-mai-decem/",
+      "score": "4.1",
+      "reviews": "386",
+      "price": "US$ 35.36"
+    },
+    {
+      "title": "U 님만 치앙마이 - SHA Extra Plus",
+      "link": "https://www.klook.com/ko/hotels/detail/493449-u-nimman-chiang-mai/",
+      "score": "4.9",
+      "reviews": "972",
+      "price": "US$ 97.86"
+    },
+    {
+      "title": "Chai Lai Orchid",
+      "link": "https://www.klook.com/ko/hotels/detail/1315633-chai-lai-orchid/",
+      "score": "",
+      "reviews": "",
+      "price": "US$ 101.24"
+    },
+    {
+      "title": "이스틴 딴 호텔 치앙마이 - SHA Extra Plus",
+      "link": "https://www.klook.com/ko/hotels/detail/255639-eastin-tan-hotel-chiang-mai/",
+      "score": "4.4",
+      "reviews": "707",
+      "price": "US$ 59.16"
+    },
+    {
+      "title": "Duangtawan Hotel Chiang Mai",
+      "link": "https://www.klook.com/ko/hotels/detail/100635-duangtawan-hotel-chiang-mai/",
+      "score": "3.8",
+      "reviews": "992",
+      "price": "US$ 32.71"
+    },
+    {
+      "title": "지라 부티크 레지던스",
+      "link": "https://www.klook.com/ko/hotels/detail/278977-jira-boutique-residence/",
+      "score": "4.1",
+      "reviews": "274",
+      "price": "US$ 25.65"
+    },
+    {
+      "title": "코코텔 치앙 마이 님만",
+      "link": "https://www.klook.com/ko/hotels/detail/442189-kokotel-chiang-mai-nimman/",
+      "score": "4.5",
+      "reviews": "186",
+      "price": "US$ 37.69"
+    },
+    {
+      "title": "Sanae' Oldtown Hotel",
+      "link": "https://www.klook.com/ko/hotels/detail/915333-sanae-oldtown-hotel/",
+      "score": "4.5",
+      "reviews": "20",
+      "price": "US$ 35.51"
+    }
+  ],
+  "인기순위": [
+    {
+      "rank": "1",
+      "title": "치앙마이 렌터카",
+      "link": "https://www.klook.com/ko/car-rentals/city/5-chiang-mai-province-car-rentals/"
+    },
+    {
+      "rank": "2",
+      "title": "치앙마이 투어 & 체험",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-tours-experiences/c5-cate1/"
+    },
+    {
+      "rank": "3",
+      "title": "치앙마이 투어",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-tours/c5-cate9/"
+    },
+    {
+      "rank": "4",
+      "title": "치앙마이 일일 투어",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-day-trips/c5-cate10/"
+    },
+    {
+      "rank": "5",
+      "title": "치앙마이 스파",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-massages-hot-springs/c5-cate20/"
+    },
+    {
+      "rank": "6",
+      "title": "치앙마이 스파 & 마사지",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-spa-massages/c5-cate21/"
+    },
+    {
+      "rank": "7",
+      "title": "치앙마이 아웃도어 & 스포츠",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-outdoor-sports-activities/c5-cate15/"
+    },
+    {
+      "rank": "8",
+      "title": "치앙마이 문화 체험",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-cultural-experiences/c5-cate122/"
+    },
+    {
+      "rank": "9",
+      "title": "치앙마이 와일드라이프",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-wildlife/c5-cate118/"
+    },
+    {
+      "rank": "10",
+      "title": "치앙마이 쿠킹 클래스",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-cooking-classes/c5-cate182/"
+    },
+    {
+      "rank": "11",
+      "title": "치앙마이 미식 투어",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-food-wine-tours/c5-cate29/"
+    },
+    {
+      "rank": "12",
+      "title": "치앙마이 전통의상 체험",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-traditional-clothes-rental/c5-cate26/"
+    },
+    {
+      "rank": "13",
+      "title": "치앙마이 수상 액티비티",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-water-activities/c5-cate121/"
+    },
+    {
+      "rank": "14",
+      "title": "치앙마이 원데이 클래스",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-workshops/c5-cate25/"
+    },
+    {
+      "rank": "15",
+      "title": "치앙마이 하이킹",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-hiking/c5-cate162/"
+    },
+    {
+      "rank": "16",
+      "title": "치앙마이 짚라인",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-ziplining/c5-cate175/"
+    },
+    {
+      "rank": "17",
+      "title": "치앙마이 카약",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-kayaking/c5-cate171/"
+    },
+    {
+      "rank": "18",
+      "title": "치앙마이 래프팅",
+      "link": "https://www.klook.com/ko/experiences/list/chiang-mai-rafting/c5-cate125/"
+    }
+  ]
+}
